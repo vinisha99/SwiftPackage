@@ -1,0 +1,11 @@
+framework module ReferenceFramework {
+  umbrella header "ReferenceFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ReferenceFramework.Swift {
+    header "ReferenceFramework-Swift.h"
+    requires objc
+}
